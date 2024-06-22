@@ -12,25 +12,38 @@
     <div class="lanes">
       <div class="lane">
         <div class="header">Backlog</div>
-        <div class="tasks">
-          <div class="task" data-draggable>Do Laundry</div>
-        </div>
-        <form>
-          <input class="task-input" type="text" placeholder="Task Name" />
+        <div class="tasks" data-drop-zone data-lane-id="backlog"></div>
+        <form data-task-form>
+          <input
+            class="task-input"
+            type="text"
+            placeholder="Task Name"
+            data-task-input
+          />
         </form>
       </div>
       <div class="lane">
         <div class="header">Doing</div>
-        <div class="tasks"></div>
-        <form>
-          <input class="task-input" type="text" placeholder="Task Name" />
+        <div class="tasks" data-drop-zone data-lane-id="doing"></div>
+        <form data-task-form>
+          <input
+            class="task-input"
+            type="text"
+            placeholder="Task Name"
+            data-task-input
+          />
         </form>
       </div>
       <div class="lane">
         <div class="header">Done</div>
-        <div class="tasks"></div>
-        <form>
-          <input class="task-input" type="text" placeholder="Task Name" />
+        <div class="tasks" data-drop-zone data-lane-id="done"></div>
+        <form data-task-form>
+          <input
+            class="task-input"
+            type="text"
+            placeholder="Task Name"
+            data-task-input
+          />
         </form>
       </div>
     </div>
